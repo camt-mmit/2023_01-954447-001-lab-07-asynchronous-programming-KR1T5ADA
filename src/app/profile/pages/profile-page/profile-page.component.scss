@@ -1,0 +1,22 @@
+a{
+  text-decoration: none;
+  padding: 7px 14px;
+  background-color: rgb(99, 99, 99);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  transition-duration: 200ms;
+}
+
+a:hover{
+  background-color: black;
+  color: white;
+  background-color: black;
+  transition-duration: 200ms;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  padding: 0px 4px 0px 0px;
+}

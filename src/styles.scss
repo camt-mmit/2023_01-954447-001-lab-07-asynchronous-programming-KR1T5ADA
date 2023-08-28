@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  font-family: sans-serif;
+}
+
+.app-cmp-data-form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 20px;
+
+  & > label {
+    font-weight: bold;
+  }
+}

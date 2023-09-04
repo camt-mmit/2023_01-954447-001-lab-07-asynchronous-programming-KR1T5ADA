@@ -1,0 +1,12 @@
+<dl *ngIf="data; else noData">
+  <ng-container *ngFor="let item of data; let inputIndex = index">
+    <dt>
+      <a [routerLink]="[inputIndex]">Input {{ inputIndex + 1 }}</a>
+    </dt>
+    <dd>{{ getResult(item).toLocaleString() }}</dd>
+  </ng-container>
+</dl>
+
+<ng-template #noData>
+  <div>No Data</div>
+</ng-template>

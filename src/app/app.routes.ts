@@ -7,4 +7,9 @@ export const routes: Routes = [
     loadChildren: () =>
       import('./profile/profile.routes').then((m) => m.routes),
   },
+  {
+    path: 'dynamic-section',
+    loadChildren: () =>
+      import('./dynamic-section/dynamic-section.routes').then((m) => m.routes),
+  },
 ];
